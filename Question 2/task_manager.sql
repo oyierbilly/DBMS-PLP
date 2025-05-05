@@ -27,4 +27,4 @@ INSERT INTO users (username, email) VALUES
 
 INSERT INTO tasks (user_id, title, description, status, priority, due_date) VALUES
 (1, 'Complete project', 'Finish the API implementation', 'pending', 'high', '2025-05-05'),
-(2, 'Buy groceries', 'Milk, eggs, bread', 'pending', 'medium', '2023-05-05');
+(2, 'Buy groceries', 'Milk, eggs, bread', 'pending', 'medium', '2025-04-25');

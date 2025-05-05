@@ -75,9 +75,9 @@ CREATE TABLE book_authors (
 
 -- Insert sample data
 INSERT INTO members (first_name, last_name, email, phone, join_date, membership_status) VALUES
-('John', 'Doe', 'john.doe@email.com', '1234567890', '2022-01-15', 'active'),
-('Jane', 'Smith', 'jane.smith@email.com', '9876543210', '2022-03-22', 'active'),
-('Robert', 'Johnson', 'robert.j@email.com', NULL, '2023-01-10', 'expired');
+('Billy', 'Oyier', 'oyierbilly01@gmail.com', '0757578814', '2025-01-15', 'active'),
+('Isaac', 'Isachaar', 'isaac@egail.com', '0720701719', '2025-01-01', 'active'),
+('Jacob', 'Mumia', 'mumia.j@email.com', NULL, '2025-01-30', 'expired');
 
 INSERT INTO books (isbn, title, author, publisher, publication_year, genre, total_copies, available_copies) VALUES
 ('978-0061120084', 'To Kill a Mockingbird', 'Harper Lee', 'J. B. Lippincott & Co.', 1960, 'Fiction', 5, 3),
@@ -93,8 +93,8 @@ INSERT INTO book_authors (book_id, author_id) VALUES
 (1, 1), (2, 2), (3, 3);
 
 INSERT INTO loans (book_id, member_id, loan_date, due_date, return_date, status) VALUES
-(1, 1, '2023-01-20', '2023-02-20', NULL, 'active'),
-(2, 2, '2023-02-15', '2023-03-15', '2023-03-10', 'returned');
+(1, 1, '2023-01-20', '2025-02-20', NULL, 'active'),
+(2, 2, '2023-02-15', '2025-03-15', '2023-03-10', 'returned');
 
 INSERT INTO fines (loan_id, amount, issue_date, payment_date, status) VALUES
-(2, 5.00, '2023-03-11', NULL, 'unpaid');
+(2, 5.00, '2025-03-11', NULL, 'unpaid');
